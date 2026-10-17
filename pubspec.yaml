@@ -1,0 +1,91 @@
+name: nirmal
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── UI ────────────────────────────────────────────────────────────────────
+  cupertino_icons: ^1.0.8
+  iconsax: ^0.0.8
+  lottie: ^3.3.2
+  smooth_page_indicator: ^1.2.1
+  flutter_native_splash: ^2.4.7
+
+  # ── State / Storage ───────────────────────────────────────────────────────
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  shared_preferences: ^2.3.2
+  provider: ^6.1.2
+
+  # ── Firebase (all pinned to compatible BoM ~March 2024) ───────────────────
+  # firebase_auth 4.x has a known reCAPTCHA bug on Android physical devices.
+  # Upgrading to 5.x fixes "empty reCAPTCHA token" + "invalid-credential".
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  firebase_storage: ^12.3.2
+  cloud_firestore: ^5.4.4
+  firebase_database: ^11.1.4
+  firebase_app_check: ^0.3.1+4
+
+  # ── Notifications ─────────────────────────────────────────────────────────
+  flutter_local_notifications: ^17.2.2
+
+  # ── Map / Location ────────────────────────────────────────────────────────
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  geolocator: ^11.0.0
+  geocoding: ^2.1.1
+  permission_handler: ^11.3.0
+
+  # ── Network / Utils ───────────────────────────────────────────────────────
+  http: ^1.6.0
+  url_launcher: ^6.3.2
+  connectivity_plus: ^5.0.1
+  intl: ^0.20.2
+  logger: ^2.6.2
+
+  # ── Auth ──────────────────────────────────────────────────────────────────
+  google_sign_in: ^6.2.1
+
+  # ── Media ─────────────────────────────────────────────────────────────────
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/images/on_boarding_images/
+    - assets/icons/
+    - assets/logos/
+    - assets/images/animations/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Italic.ttf
+          style: italic
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
