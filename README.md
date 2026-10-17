@@ -47,13 +47,31 @@
 
 ## Key features
 
-| | Feature | Details |
-|:--:|:--|:--|
-| 🔐 | **Dual-role authentication** | Secure login for Citizens (standard users) and Municipal Admins. |
-| 🗺️ | **Live GPS tracking and bin locator** | Follows the collection vehicle in real time and helps users find nearby dustbins, with exact walking directions and ETAs. |
-| 🔔 | **Push notifications** | Firebase Cloud Messaging alerts residents when the truck is within a 2-minute radius. |
-| 📝 | **Smart complaint system** | One-tap complaint logging with priority levels, location tagging and image attachments. |
-| 📊 | **Admin dashboard** | Live stats on active routes, completed deliveries and total trucks registered. |
+### 📱 For Citizens
+
+| Feature | Description |
+|:--|:--|
+| **Live Truck Tracking** | Watch the garbage truck move on a real-time map. See exactly where it is and get an accurate walking distance and ETA. |
+| **Proximity Alerts** | Never miss a pickup again. Firebase Cloud Messaging (FCM) sends a push notification to your phone when the truck is within a 2-minute radius. |
+| **Smart Bin Locator** | Need to throw something away right now? Find the nearest public dustbin on the map and get instant walking directions to it. |
+| **One-Tap Complaints** | Report overflowing bins or missed pickups instantly. Attach photos, tag the exact GPS location, and set the priority level (Low, Medium, High). |
+| **Dual-Language Support** | Access the app in multiple local languages for better accessibility. |
+
+### 🖥️ For Municipal Admins
+
+| Feature | Description |
+|:--|:--|
+| **Live Operations Dashboard** | A centralized command center showing real-time fleet stats: total trucks, active routes, and completed deliveries. |
+| **Complaint Management** | View incoming photo-based complaints, track their status, and mark them as resolved with a single tap. |
+| **Role-Based Access** | Secure, Firebase-authenticated admin panel to ensure only authorized municipal staff can manage fleet operations. |
+
+### ⚙️ Under the Hood
+
+| Feature | Description |
+|:--|:--|
+| **Real-Time Database Sync** | Powered by Cloud Firestore and Firebase Realtime Database for zero-latency updates between the citizen app and admin dashboard. |
+| **Robust Routing** | Integrated with Google Maps API and OSRM to calculate actual road-network walking paths, not just straight lines. |
+| **Secure Architecture** | API keys and sensitive configurations are completely stripped from the public repository. |
 
 ---
 
