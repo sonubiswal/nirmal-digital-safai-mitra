@@ -93,10 +93,12 @@ flutter run
 
 ---
 
-## Author
+<div align="center">
 
-**Sumit Kumar Biswal**
+## Sumit Kumar Biswal
 
-[![GitHub](https://img.shields.io/badge/GitHub-sonubiswal-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sonubiswal)
+<a href="https://github.com/sonubiswal">
+  <img src="https://img.shields.io/badge/GitHub-@sonubiswal-181717?style=for-the-badge&logo=github&logoColor=white" alt="sonubiswal on GitHub">
+</a>
 
-If you find this project useful, consider giving it a ⭐ on [GitHub](https://github.com/sonubiswal/nirmal-digital-safai-mitra).
+</div>
