@@ -14,7 +14,12 @@
 |:--|:--|
 | Municipal waste tracking is largely manual, which leads to **missed pickups**, **slow complaint resolution** and **inefficient routing**. | Nirmal gives residents and administrators one shared, real-time platform. |
 | Citizens have no visibility into where the truck is. | Residents **track the truck live** and see their walking distance and ETA. |
+| Citizens don't know where the nearest public dustbin is, which leads to littering and illegal dumping. | Users can **find nearby bins** on the map, see the walking distance and ETA, and get **walking directions** to the nearest one. |
 | Administrators lack the data to manage fleets and issues. | Admins get a **live dashboard** to manage fleets and resolve complaints instantly. |
+
+### The project in 30 seconds
+
+> Nirmal solves the inefficiency of manual waste management. Citizens miss the garbage truck, don't know where the nearest public bin is, and have no easy way to report overflowing trash. It is a dual-sided Flutter app: citizens get live GPS tracking of the truck, push notifications when it is nearby, and a locator that finds the closest dustbin with walking directions. Admins get a real-time dashboard to track routes and resolve photo-based complaints instantly. It is built with Firebase for real-time sync and FCM for background alerts.
 
 ---
 
@@ -24,7 +29,7 @@
 
 | Role | What they can do |
 |:--|:--|
-| **Citizen** | Track the collection vehicle live, get alerted when it is close, and file complaints in one tap. |
+| **Citizen** | Track the collection vehicle live, get alerted when it is close, find the nearest dustbin with walking directions, and file complaints in one tap. |
 | **Municipal admin** | Monitor active routes and trucks, review incoming complaints, and mark them resolved. |
 
 ---
@@ -45,7 +50,7 @@
 | | Feature | Details |
 |:--:|:--|:--|
 | 🔐 | **Dual-role authentication** | Secure login for Citizens (standard users) and Municipal Admins. |
-| 🗺️ | **Live GPS tracking** | Follows the collection vehicle in real time. Citizens see an estimated walking distance and ETA to the approaching truck. |
+| 🗺️ | **Live GPS tracking and bin locator** | Follows the collection vehicle in real time and helps users find nearby dustbins, with exact walking directions and ETAs. |
 | 🔔 | **Push notifications** | Firebase Cloud Messaging alerts residents when the truck is within a 2-minute radius. |
 | 📝 | **Smart complaint system** | One-tap complaint logging with priority levels, location tagging and image attachments. |
 | 📊 | **Admin dashboard** | Live stats on active routes, completed deliveries and total trucks registered. |
