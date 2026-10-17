@@ -2,7 +2,7 @@
 
 [![Download APK](https://img.shields.io/badge/Download-Android_APK-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/sonubiswal/nirmal-digital-safai-mitra/releases/latest) [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev) [![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)](https://dart.dev) [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com) [![Google Maps](https://img.shields.io/badge/Google_Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white)](https://developers.google.com/maps) [![License: MIT](https://img.shields.io/badge/License-MIT-12a56b?style=flat-square)](https://opensource.org/licenses/MIT)
 
-**[Problem](#the-problem-and-solution)** | **[How it works](#how-it-works)** | **[Screenshots](#app-screenshots)** | **[Features](#key-features)** | **[Tech stack](#tech-stack)** | **[Setup](#local-setup)**
+**[Problem](#the-problem-and-solution)** | **[How it works](#how-it-works)** | **[Screenshots](#app-screenshots)** | **[Features](#key-features)** | **[Tech stack](#tech-stack)** | **H[Setup](#local-setup)**
 
 > **Nirmal** (*Digital Safai Mitra*) is a cross-platform waste management ecosystem that replaces manual municipal tracking with a real-time, closed-loop platform for citizens and administrators.
 
@@ -33,7 +33,7 @@
 
 | Live dashboard | Walking directions | Submit complaint | Push notification |
 |:--:|:--:|:--:|:--:|
-| ![Live Dashboard](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/dashboard.jpg) | ![Walking Directions](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/directions.jpg) | ![Submit Complaint](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/complaint.jpg) | ![Push Notifications](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/notification.jpg) |
+| ![Live Dashboard](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/dashboard.jpeg) | ![Walking Directions](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/directions.jpeg) | ![Submit Complaint](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/complaint.jpeg) | ![Push Notifications](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/notification.jpeg) |
 
 Want to try it first? [Download the latest Android APK](https://github.com/sonubiswal/nirmal-digital-safai-mitra/releases/latest).
 
