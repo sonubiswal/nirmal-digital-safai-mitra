@@ -2,7 +2,7 @@
 
 [![Download APK](https://img.shields.io/badge/Download-Android_APK-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/sonubiswal/nirmal-digital-safai-mitra/releases/latest) [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev) [![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)](https://dart.dev) [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com) [![Google Maps](https://img.shields.io/badge/Google_Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white)](https://developers.google.com/maps) [![License: MIT](https://img.shields.io/badge/License-MIT-12a56b?style=flat-square)](https://opensource.org/licenses/MIT)
 
-**[Problem](#the-problem-and-solution)** | **[How it works](#how-it-works)** | **[Screenshots](#app-screenshots)** | **[Features](#key-features)** | **[Tech stack](#tech-stack)** | **H[Setup](#local-setup)**
+**[Problem](#the-problem-and-solution)** | **[How it works](#how-it-works)** | **[Screenshots](#app-screenshots)** | **[Features](#key-features)** | **[Tech stack](#tech-stack)** | **[Setup](#local-setup)**
 
 > **Nirmal** (*Digital Safai Mitra*) is a cross-platform waste management ecosystem that replaces manual municipal tracking with a real-time, closed-loop platform for citizens and administrators.
 
@@ -88,17 +88,3 @@ flutter pub get
 
 # 4. Run the app
 flutter run
-```
-
----
-
-## Author
-
-**Sumit Kumar Biswal**
-Final-year B.Tech Computer Science student at GIET University.
-
-[![GitHub](https://img.shields.io/badge/GitHub-sonubiswal-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sonubiswal)
-
----
-
-Released under the [MIT License](https://opensource.org/licenses/MIT). If Nirmal is useful to you, consider giving it a star.
