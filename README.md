@@ -35,7 +35,8 @@
 |:--:|:--:|:--:|:--:|
 | ![Live Dashboard](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/dashboard.jpeg) | ![Walking Directions](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/directions.jpeg) | ![Submit Complaint](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/complaint.jpeg) | ![Push Notifications](https://raw.githubusercontent.com/sonubiswal/nirmal-digital-safai-mitra/main/assets/screenshots/notification.jpeg) |
 
-Want to try it first? [Download the latest Android APK](https://github.com/sonubiswal/nirmal-digital-safai-mitra/releases/latest).
+> [!TIP]
+> **Want to try it first?** [**⬇️ Download the latest Android APK**](https://github.com/sonubiswal/nirmal-digital-safai-mitra/releases/latest)
 
 ---
 
@@ -88,3 +89,14 @@ flutter pub get
 
 # 4. Run the app
 flutter run
+```
+
+---
+
+## Author
+
+**Sumit Kumar Biswal**
+
+[![GitHub](https://img.shields.io/badge/GitHub-sonubiswal-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sonubiswal)
+
+If you find this project useful, consider giving it a ⭐ on [GitHub](https://github.com/sonubiswal/nirmal-digital-safai-mitra).
